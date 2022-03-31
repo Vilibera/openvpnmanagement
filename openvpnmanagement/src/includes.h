@@ -15,7 +15,7 @@
 #include <libubus.h>
 #include <libubox/uloop.h>
 #include <libubox/blobmsg_json.h>
-#include <sys/poll.h>
+#include <poll.h>
 #include <fcntl.h>
 
 
