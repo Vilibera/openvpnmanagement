@@ -73,11 +73,12 @@ int main(int argc,char *argv[])
 	signal(SIGTERM, sigHandler);
 
     uci_alloc(ubus_ctx,CONFIG,&package);
-
+    
     ubus_init();
     ubus_register_server(package);
 
     socketfd = socket_init(con.address, con.port);
+
 
     uloop_run();
     uloop_done();

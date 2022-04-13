@@ -26,3 +26,6 @@ struct  Connection con;
 
 
 int socketfd;
+
+#define TRUE 1
+#define FALSE 0

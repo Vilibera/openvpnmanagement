@@ -101,9 +101,9 @@ char *socket_message(int socketfd,char command[])
           strncpy(data,buff,MAX_LINE);
           return data;
         }
-        
+       
+
     }
-syslog(LOG_INFO,"socket message");
 }
 
 
